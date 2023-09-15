@@ -1,0 +1,61 @@
+@font-face {
+    font-family: mongoose;
+    src: url('../../assests/Fontspring-DEMO-mongoose-regular.otf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: mongoose;
+    src: url('../../assests/Fontspring-DEMO-mongoose-bold.otf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: mongoose;
+    src: url('../../assests/Fontspring-DEMO-mongoose-medium.otf') format('truetype');
+    font-weight: light;
+}
+@font-face {
+    font-family: mongoose;
+    src: url('../../assests/Fontspring-DEMO-mongoose-light.otf') format('truetype');
+    font-weight: lighter;
+}
+body{
+    background-color: #f6d8ae8d;}
+
+.body{
+    padding: 0 5%;
+}
+
+.home-text p{
+    display: block;
+    position: absolute;
+    top: 13vw;
+    right: -5%;
+    font-size: 75vh;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(249,45,45,.6117647059);
+    font-family: mongoose,poppins;
+    font-weight: bold;
+}
+.home-title h1{
+    font-family: mongoose;
+    font-size: 12vw;
+    color: #f92e2d ;
+    font-weight: bold;
+}
+.section-text p{
+    display: block;
+    position: absolute;
+    /* top: 50vw; */
+    left: -5%;
+    font-size: 75vh;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(249,45,45,.6117647059);
+    font-family: mongoose,poppins;
+    font-weight: bold;
+}
+
+/* @media screen (min-width:450px) and (max-width:900px) {
+    .section-text p{
+        font-size: 30vh;
+    }
+} */
