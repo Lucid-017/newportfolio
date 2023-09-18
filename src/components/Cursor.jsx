@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react'
-// import './Cursor.css'
 import AnimatedCursor from "react-animated-cursor"
 
 

@@ -1,43 +1,13 @@
-@font-face {
-    font-family: mongoose;
-    src: url('../../assests/Fontspring-DEMO-mongoose-regular.otf') format('truetype');
-    font-weight: normal;
-}
-@font-face {
-    font-family: mongoose;
-    src: url('../../assests/Fontspring-DEMO-mongoose-bold.otf') format('truetype');
-    font-weight: bold;
-}
-@font-face {
-    font-family: mongoose;
-    src: url('../../assests/Fontspring-DEMO-mongoose-medium.otf') format('truetype');
-    font-weight: light;
-}
-@font-face {
-    font-family: mongoose;
-    src: url('../../assests/Fontspring-DEMO-mongoose-light.otf') format('truetype');
-    font-weight: lighter;
-}
-
-.container{
-    width: 87%;
-    margin:  0 auto;
-    /* position: relative; */
-}
 
 .title-primary p {
-    font-family: mongoose;
+    font-family: var(--header-font);
     color: #f92e2d ;
     font-weight: bold;
     line-height: .85;
     font-size: 14vw;
     overflow-y: hidden;
 }
-h1{
-    font-family: mongoose;
-    color: #f92e2d ;
-    font-weight: bold;
-    line-height: .85;
+.click h1{
     font-size: 14vw;
     overflow-y: hidden;
 }
@@ -46,12 +16,13 @@ h1{
     display: block;
     color: transparent;
     -webkit-text-stroke: 1px #0027429e;
-    font-family: mongoose,poppins;
+    font-family: var(--header-font);
     font-weight: bold;
     z-index: -1;
 }
 .me{
     top: 30vh;
+    font-family:var(--header-font) ;
     right: 0;
     font-size: 75vh;
 }
@@ -67,9 +38,7 @@ h1{
     border: 15px solid white;
     z-index: -1;
 }
-.title{
-    font-family: mongoose;
-    color: #f92e2d ;
+.title h2{
     font-weight: bold;
     font-size: 8vw;
     position: absolute;
@@ -145,8 +114,7 @@ h1{
     border-radius: 50vw;
 }
 .footer .touch{
-    margin: 50px 0 !important;
-    color: white;
+    margin: 50px 0;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

@@ -16,7 +16,9 @@ const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 h-screen my-auto mx-0 relative">
           <div className="left my-auto mx-0">
             {/* image */}
-            <div className="title">MY BIO</div>
+            <div className="title">
+              <h2>MY BIO</h2>
+            </div>
             <div className="image"></div>
           </div>
           <div className="right my-auto mx-0">
@@ -85,7 +87,7 @@ const Contact = () => {
         </div>
         <div className="h-screen mx-auto my-auto w-4/5">
           <div className="text-center">
-            <div classname="touch">
+            <div className="touch">
               <p>Would you like to hire me for a project?</p>
               <p>Click the email address to contact me</p>
               <p>

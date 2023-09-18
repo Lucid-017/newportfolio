@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: mongoose;
+    src: url('../../assests/Fontspring-DEMO-mongoose-regular.otf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: mongoose;
+    src: url('../../assests/Fontspring-DEMO-mongoose-bold.otf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: mongoose;
+    src: url('../../assests/Fontspring-DEMO-mongoose-medium.otf') format('truetype');
+    font-weight: light;
+}
+@font-face {
+    font-family: mongoose;
+    src: url('../../assests/Fontspring-DEMO-mongoose-light.otf') format('truetype');
+    font-weight: lighter;
+}
+/* colors - #F6D8AE- background
+#002642 -  text
+headers- #840032  */
+:root{
+    /* primary colors */
+    --primary-bg: #f6d8ae8d;
+    --header-font: mongoose,helvitca;
+    --header-size: 14vw;
+    --text-font: poppins;
+    --text-size: 18px;
+    --color: #f92e2d;
+    /* secondary sections */
+    --secondary-bg : #f92e2d;
+    --secondary-text : white;
+}
+h1,h2,h3{
+    font-family: var(--header-font);
+    color: var(--color) ;
+    font-weight: bold;
+    line-height: .85;
+    overflow: hidden;
+}
+.container{
+    width: 87%;
+    margin:  0 auto;
+    /* position: relative; */
+}

@@ -1,7 +1,6 @@
 import { BrowserRouter as Router,Route,Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import './pages/css/index.css'
-import './pages/css/Home.css'
 import Navbar from "./components/Navbar";
 import Cursor from "./components/Cursor";
 import Contact from "./pages/Contact";
