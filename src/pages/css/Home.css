@@ -11,13 +11,13 @@ body{
     font-size: 75vh;
     color: transparent;
     -webkit-text-stroke: 1px rgba(249,45,45,.6117647059);
-    font-family: mongoose,poppins;
+    font-family: var(--header-font);
     font-weight: bold;
 }
 .home-title h1{
     font-family: var(--header-font);
     font-size: 12vw;
-    color: #f92e2d ;
+    color: var(--color) ;
     font-weight: bold;
 }
 .section-text p{
@@ -30,6 +30,28 @@ body{
     -webkit-text-stroke: 1px rgba(249,45,45,.6117647059);
     font-family: mongoose,poppins;
     font-weight: bold;
+}
+.info{
+    position: absolute;
+    bottom: 40%;
+}
+
+.info p::before{
+    content: '';
+    display: inline-block;
+    /* position: absolute; */
+    bottom: 4px;
+    left: 0;
+    width: 20px;
+    height: 2px;
+    margin: 5px;
+    background-color: #0a0a0aa2;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .7s ease-in-out;
+}
+.info p:hover::before{
+    opacity: 1;
 }
 
 /* @media screen (min-width:450px) and (max-width:900px) {

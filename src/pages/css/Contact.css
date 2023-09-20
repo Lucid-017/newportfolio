@@ -56,7 +56,7 @@
 .skills .header p,
 .contact .header p{
     font-family: mongoose;
-    color: #f92e2d ;
+    color: var(--color) ;
     font-weight: bold;
     line-height: .85;
     font-size: 10vw;

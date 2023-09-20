@@ -22,6 +22,8 @@
     src: url('../../assests/Fontspring-DEMO-mongoose-light.otf') format('truetype');
     font-weight: lighter;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 /* colors - #F6D8AE- background
 #002642 -  text
 headers- #840032  */
@@ -36,6 +38,7 @@ headers- #840032  */
     /* secondary sections */
     --secondary-bg : #f92e2d;
     --secondary-text : white;
+    --secondary-color: #0a0a0aeb;
 }
 h1,h2,h3{
     font-family: var(--header-font);

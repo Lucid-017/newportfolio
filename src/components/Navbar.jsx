@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Logo from '../assests/Black_And_White_Rakia_Design_Studio_Logo-removebg-preview.png'
-import '../components/Navbar.css'
+// import Logo from '../assests/Black_And_White_Rakia_Design_Studio_Logo-removebg-preview.png'
+import '../components/css/Navbar.css'
 
 const Navbar = ()=>{
     return(

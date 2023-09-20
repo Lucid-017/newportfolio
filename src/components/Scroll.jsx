@@ -2,12 +2,15 @@ import {useRef,useEffect} from 'react'
 import {gsap} from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import './css/Scroll.css'
+import Projects from '../Data.json'
+
 const Scroll = () => {
     const sectionRef = useRef(null)
     const triggerRef = useRef(null)
 
     gsap.registerPlugin(ScrollTrigger)
     useEffect(()=>{
+        console.log(Projects)
         const pin = gsap.fromTo(sectionRef.current,{
             translateX:0
         },
